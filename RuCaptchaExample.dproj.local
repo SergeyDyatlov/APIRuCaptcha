@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.198,=C:\Users\Сергей\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.759,=C:\Users\Сергей\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.724,C:\Users\Сергей\Documents\Embarcadero\Studio\Projects\RuCaptcha\Unit2.dfm=C:\Users\Сергей\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.668,=C:\Users\Сергей\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.841,C:\Users\Сергей\Documents\Embarcadero\Studio\Projects\RuCaptcha\Project1.dproj=C:\Users\Сергей\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.724,C:\Users\Сергей\Documents\Embarcadero\Studio\Projects\RuCaptcha\Unit2.pas=C:\Users\Сергей\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.285,=C:\Users\Сергей\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2015.09.01 16:23:46.567,=C:\Users\Сергей\Documents\Embarcadero\Studio\Projects\RuCaptcha\Unit1.pas</Transaction>
+    <Transaction>2015.09.01 16:27:43.255,C:\Users\Сергей\Documents\Embarcadero\Studio\Projects\RuCaptcha\RuCaptcha.pas=C:\Users\Сергей\Documents\Embarcadero\Studio\Projects\RuCaptcha\Unit1.pas</Transaction>
+    <Transaction>2015.09.01 16:28:39.209,C:\Users\Сергей\Documents\Embarcadero\Studio\Projects\RuCaptcha\APIRuCaptcha.pas=C:\Users\Сергей\Documents\Embarcadero\Studio\Projects\RuCaptcha\RuCaptcha.pas</Transaction>
+    <Transaction>2015.09.01 17:24:41.858,C:\Users\Сергей\Documents\Embarcadero\Studio\Projects\RuCaptcha\RuCaptchaExample.dproj=C:\Users\Сергей\Documents\Embarcadero\Studio\Projects\RuCaptcha\Project1.dproj</Transaction>
+    <Transaction>2015.09.01 17:24:51.109,C:\Users\Сергей\Documents\Embarcadero\Studio\Projects\RuCaptcha\Main.dfm=C:\Users\Сергей\Documents\Embarcadero\Studio\Projects\RuCaptcha\Unit2.dfm</Transaction>
+    <Transaction>2015.09.01 17:24:51.109,C:\Users\Сергей\Documents\Embarcadero\Studio\Projects\RuCaptcha\Main.pas=C:\Users\Сергей\Documents\Embarcadero\Studio\Projects\RuCaptcha\Unit2.pas</Transaction>
+  </Transactions>
+</BorlandProject>
