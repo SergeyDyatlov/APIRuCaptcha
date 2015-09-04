@@ -34,6 +34,15 @@ implementation
 
 uses APIRuCaptcha;
 
+function Recognize(const Key, FileName: string): string;
+begin
+  Result := TAPIRuCaptcha.UploadFile(Key, FileName);
+  if Pos('ERROR', Result) = 0 then
+  begin
+    Result := TAPIRuCaptcha.GetAnswer(Key, Result);
+  end;
+end;
+
 procedure TForm2.Button1Click(Sender: TObject);
 begin
   if OpenDialog1.Execute then
@@ -46,15 +55,14 @@ procedure TForm2.Button2Click(Sender: TObject);
 var
   Key: string;
   FileName: string;
-  Balance: string;
-  Captcha: string;
+  CaptchaText: string;
 begin
   Key := Edit1.Text;
   FileName := Edit2.Text;
 
-  Balance := TAPIRuCaptcha.GetBalance(Key);
-  Captcha := TAPIRuCaptcha.Recognize(Key, 'C:\BTCFaucetClub_1239.png');
-  ShowMessage(Format('Balance: %s' + #13#10 + 'Captcha: %s', [Balance, Captcha]));
+  ShowMessage(Format('Balance: %s', [TAPIRuCaptcha.GetBalance(Key)]));
+  CaptchaText := Recognize(Key, FileName);
+  ShowMessage(Format('Captcha Text: %s', [CaptchaText]));
 end;
 
 end.
