@@ -98,6 +98,7 @@ begin
   HTTP := TIdHTTP.Create(nil);
   Data := TIdMultiPartFormDataStream.Create;
   try
+    Data.AddFormField('soft_id', '838');
     Data.AddFormField('key', Key);
     Data.AddFile('file', FileName);
 
